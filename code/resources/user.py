@@ -10,7 +10,7 @@ class UserRegister(Resource):
         required=True,
         help="This field can not be blank"
     )
-
+    
     parser.add_argument(
         'password',
         type=str,
